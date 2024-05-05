@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav1{
+    display: flex;
+    width: 100vw;
+    background: #DBDBDB;
+    height: 190px;
+    align-items: center;
+}
+#logo{
+    margin-left: 80px;
+}
+.nav1 > input{
+    width: 1100px;
+    margin-left: 250px;
+    height: 81px;
+    border: none;
+    border-radius: 10px;
+    background: #D3D3D3;
+}
+input::placeholder{
+    font-size: 15pt;
+    padding-left: 20px;
+}
+#lupa{
+    margin-left: 30px;
+    border: none;
+    background: none;
+}
+#perfil{
+    border: none;
+    background: none;
+    margin-left: 800px;
+}
+#carrinho{
+    border: none;
+    background: none;
+    margin-left: 100px;
+}
+
+.nav2{
+    width: 100vw;
+    height: 97px;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav2 > ul{
+    background: #0038FF;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    list-style: none;
+}
+li{
+    height: 45px;
+    flex-shrink: 0;
+    color: #fff;
+    margin-right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 130px;
+
+}
+
+a{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.promocao{
+    background: #DCC132;
+    color: #F00;
+    font-family: Arial;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    margin: 80px;
+    display: grid;
+    grid-template-columns: 80px 200px auto 40px;
+}
+.produtos{
+    width: 375px;
+    height: 614px;
+    border-radius: 20px;
+    border: 1px solid #B2ADAD;
+    background: #FFF;
+}
+
