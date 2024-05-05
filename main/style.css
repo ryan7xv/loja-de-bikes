@@ -93,17 +93,25 @@ a{
     align-items: center;
 }
 
-.container{
+#principal{
     display: grid;
     margin: 80px;
-    display: grid;
-    grid-template-columns: 80px 200px auto 40px;
+    grid-template-columns: 400px 400px 400px 400px 400px 400px;
+    gap: 60px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .produtos{
-    width: 375px;
-    height: 614px;
+    width: 365px;
+    display: flex;
+    flex-direction: column;
     border-radius: 20px;
     border: 1px solid #B2ADAD;
     background: #FFF;
 }
-
+.produtos > h1{
+    font-size: 25pt;
+    font-weight: 700;
+}
+.produtos > p{
+    font-size: 19pt;
+}
