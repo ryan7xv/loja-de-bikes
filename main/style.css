@@ -1,152 +1,147 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
-
-.nav1{
-    display: flex;
-    width: 100vw;
-    background: #DBDBDB;
-    height: 190px;
-    align-items: center;
-}
-
-#logo{
-    margin-left: 80px;
-}
-
-.nav1 > input{
-    width: 600px;
-    margin-left: 260px;
-    height: 81px;
-    border: none;
-    border-radius: 10px;
-    background: #D3D3D3;
-}
-
-input::placeholder{
-    font-size: 15pt;
-    padding-left: 20px;
-}
-
-#lupa{
-    margin-left: 30px;
-    border: none;
-    background: none;
-}
-
-#perfil{
-    border: none;
-    background: none;
-    margin-left: 800px;
-}
-
-#carrinho{
-    border: none;
-    background: none;
-    margin-left: 100px;
-}
-
-.nav2{
-    width: 100vw;
-    height: 97px;
-    display: flex;
-    flex-direction: row;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.nav2 > ul{
-    background: #0038FF;
-    width: 100vw;
-
+header{
+    background-color: #DBDBDB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    margin: 30px;
+}
+.nav1 input{
+    width: 1051px;
+    height: 81px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #D3D3D3;
+    border: none;
+}
+.nav1 input::placeholder{
+    color: rgba(50, 49, 49, 0.30);
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 30px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100px;
-    list-style: none;
 }
-
-li{
-    height: 45px;
-    flex-shrink: 0;
-    color: #fff;
-    margin-right: 70px;
+.navinput{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+}
+.navicons{
+    margin-left: 850px;
+}
+.navicons ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 130px;
-
+    list-style: none;
 }
 
+#lupa{
+    width: 50px;
+    font-size: 30pt;
+}
+#user{ 
+    font-size: 30pt;
+}
+#carrinho{
+    font-size: 30pt;
+}
 a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+.header2{
+    background: #0038FF;
+    color: #FFF;
+    font-family: Arial;
     font-size: 24px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
-    color: #fff;
-    text-decoration: none;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.header2 ul{
+    display: flex;
+    list-style: none;
 
-.promocao{
+}
+.header2 li{
+    margin: 150px;
+}
+.avisos{
     background: #DCC132;
+    height: 71px;
     color: #F00;
     font-family: Arial;
-    font-size: 26px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    height: 85px;
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#principal{
+main{
     display: grid;
-    margin: 80px;
-    grid-template-columns: 400px 400px 400px 400px 400px 400px;
-    gap: 60px;
-    font-family: Arial, Helvetica, sans-serif;
+    grid-template-columns: 375px 375px 375px 375px 375px 375px;
+    gap: 90px;
+    margin-left: 60px;
+    margin-top: 90px;
 }
-
-.produtos{
-    width: 365px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
+.bikes{
+    border-radius: 10px;
     border: 1px solid #B2ADAD;
     background: #FFF;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 355px;
+    height: 614px;
+    flex-shrink: 0;
+    font-family: Arial;
 }
-
-.produtos > h1{
-    font-size: 25pt;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
-
-.produtos > p{
-    font-size: 19pt;
-    margin-bottom: 7px;
-}
-
-s{
-    color: #A0A0A0;
-    font-family: Inter;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
-    line-height: normal;
-}
-strong{
-    color: #52FF00;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+.bikes h2{
+    color: #000;
+    font-size: 20pt;
+    margin: 20px 0px 0px 5px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
-.iconpagamentos{
-    width: 50px;
+.bikes p{
+    margin: 5px;
+    font-weight: 800;
+    font-size: 16pt;
+}
+.bikes s{
+    color: #A0A0A0;
+    padding-left: 10px;
+}
+.bikes strong{
+    color: #52FF00;
+    font-family: Arial;
+    font-size: 24pt;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 10px;
 }

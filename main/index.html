@@ -6,182 +6,197 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/264ae5b92d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
+        <img src="src/img/logo.svg" alt="Logo da Loja" id="logo">
         <nav class="nav1">
-            <img src="src/img/logo.svg" id="logo">
-            <input type="text" placeholder="Pesquisar...">
-            <button id="lupa"><img src="src/icons/lupa.svg" alt=""></button>
-            <button id="perfil"><img src="src/icons/perfil.svg" alt=""></button>
-            <button id="carrinho"><img src="src/icons/carrinho.svg" alt=""></button>
+
+            <div class="navinput">
+                <input type="text" placeholder="Pesquisar...">
+                <a href="#">
+                    <i class="fa-solid fa-magnifying-glass" id="lupa"></i>
+                </a>
+
+            </div>
+            <div class="navicons">
+
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-user" id="user"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping" id="carrinho"></i></a></li>
+                </ul>
+
+            </div>
+    
         </nav>
-        <nav class="nav2">
+    </header>
+    <header class="header2">
             <ul>
-                <li><a href="#">FERRAMENTAS</a></li>
-                <li><a href="#">DEPARTAMENTO</a></li>
-                <li><a href="#">VESTUÁRIO</a></li>
-                <li><a href="#">BICICLETAS</a></li>
-                <li><a href="#">AROS</a></li>
-                <li><a href="#">ACESSÓRIOS</a></li>
+                <li>FERRAMENTAS</li>
+                <li>DEPARTAMENTO</li>
+                <li>VESTUÁRIO</li>
+                <li>BICICLETAS</li>
+                <li>AROS</li>
+                <li>ACESSÓRIOS</li>
             </ul>
-        </nav>
-        <div class="promocao">
-            <h1>PROMOÇÃO 25% OFF EM TODAS AS BICICLETAS</h1>
-        </div>
+    </header>
+    <header class="avisos">
+        <h2>PROMOÇÃO 25% OFF EM TODOS AS BICICLETAS!!</h2>
     </header>
 
-    <div class="container">
-        <main id="principal">
-            <div class="produtos">
-                <img src="src/img/bikes/caloi.png" alt="Bike caloi">
-                <h1>Bicicleta Caloi Elite Carbon FS SLX</h1>
-                <p>De: <s>R$ 23.999,00</s></p>
-                <p>Por:<strong>R$20.799,00</strong></p>
-                <img src="src/icons/ICON CARD.svg" alt="" class="iconpagamentos"><p>12x de <strong>R$ 1.733,25</strong> sem juros no cartão de crédito</p>
-                <img src="src/icons/ICON PIX.svg" alt="" class="iconpagamentos"><p><strong>R$ 17.999,00</strong> no PIX</p>
+    <main>
+        <section class="bikes">
+            <img src="src/img/bikes/caloi.png" alt="Bicicleta Caloi Elite Carbon FS SLX">
+            <br>
+            <h2>Bicicleta Caloi Elite Carbon FS SLX</h2>
+            <br><br>
+            <p>De:<s>R$ 23.999,00</s><br>Por:<strong>R$20.799,00</strong></p>
+            <p><i class="fa-solid fa-credit-card"></i>12x de R$ 1.733,25 sem juros no cartão de crédito</p>
+            <p><i class="fa-brands fa-pix"></i>R$ 17.999,00 no PIX</p>
+        </section>
+        <section class="bikes">
+            <img src="src/img/bikes/procaliber.png" alt="Bicicleta MTB Trek Procaliber 9.5">
+            <br>
+            <h2>Bicicleta MTB Trek Procaliber 9.5</h2>
+            <br><br>
+            <p>De:<s>R$14.512,99</s><br>Por:<strong>R$10.884,74</strong></p>
+            <p><i class="fa-solid fa-credit-card"></i>12x de R$907,61 sem juros no cartão de crédito</p>
+            <p><i class="fa-brands fa-pix"></i>R$9.884,74 no PIX</p>
+        </section>
+        <section class="bikes">
+            <img src="src/img/bikes/canyon.png" alt="Canyon Sender CFR Mullet">
+            <br>
+            <h2>Canyon Sender CFR Mullet</h2>
+            <br><br>
+            <p>De:<s>R$57.375,00</s><br>Por:<strong>R$34.425,00</strong></p>
+            <p><i class="fa-solid fa-credit-card"></i>12x de R$413,10 sem juros no cartão de crédito</p>
+            <p><i class="fa-brands fa-pix"></i>R$ 33.225,00 no PIX</p>
+        </section>
+        <section class="bikes">
+            <img src="src/img/bikes/xcaliber8.png" alt="TREK - X-Caliber 8">
+            <br>
+            <h2>TREK - X-Caliber 8 12 Velocidades</h2>
+            <br><br>
+            <p>De:<s>R$10.499,00</s><br>Por:<strong>R$9.449,00</strong></p>
+            <p><i class="fa-solid fa-credit-card"></i>12x de R$791,58 sem juros no cartão de crédito</p>
+            <p><i class="fa-brands fa-pix"></i>R$8.449,00 no PIX</p>
+        </section>
 
-            </div>
+        <section class="bikes">
+            <img src="src/img/bikes/caloi.png" alt="Bicicleta Caloi Elite Carbon FS SLX">
+            <br>
+            <h2>Bicicleta Caloi Elite Carbon FS SLX</h2>
+            <br><br>
+            <p>De:<s>R$ 23.999,00</s><br>Por:<strong>R$20.799,00</strong></p>
+            <p><i class="fa-solid fa-credit-card"></i>12x de R$ 1.733,25 sem juros no cartão de crédito</p>
+            <p><i class="fa-brands fa-pix"></i>R$ 17.999,00 no PIX</p>
+        </section>
+        <section class="bikes">
+            <img src="src/img/bikes/procaliber.png" alt="Bicicleta MTB Trek Procaliber 9.5">
+            <br>
+            <h2>Bicicleta MTB Trek Procaliber 9.5</h2>
+            <br><br>
+            <p>De:<s>R$14.512,99</s><br>Por:<strong>R$10.884,74</strong></p>
+            <p><i class="fa-solid fa-credit-card"></i>12x de R$907,61 sem juros no cartão de crédito</p>
+            <p><i class="fa-brands fa-pix"></i>R$9.884,74 no PIX</p>
+        </section>
+        <section class="bikes">
+            <img src="src/img/bikes/canyon.png" alt="Canyon Sender CFR Mullet">
+            <br>
+            <h2>Canyon Sender CFR Mullet</h2>
+            <br><br>
+            <p>De:<s>R$57.375,00</s><br>Por:<strong>R$34.425,00</strong></p>
+            <p><i class="fa-solid fa-credit-card"></i>12x de R$413,10 sem juros no cartão de crédito</p>
+            <p><i class="fa-brands fa-pix"></i>R$ 33.225,00 no PIX</p>
+        </section>
+        <section class="bikes">
+            <img src="src/img/bikes/xcaliber8.png" alt="TREK - X-Caliber 8">
+            <br>
+            <h2>TREK - X-Caliber 8 12 Velocidades</h2>
+            <br><br>
+            <p>De:<s>R$10.499,00</s><br>Por:<strong>R$9.449,00</strong></p>
+            <p><i class="fa-solid fa-credit-card"></i>12x de R$791,58 sem juros no cartão de crédito</p>
+            <p><i class="fa-brands fa-pix"></i>R$8.449,00 no PIX</p>
+        </section>
+        <section class="bikes">
+            <img src="src/img/bikes/caloi.png" alt="Bicicleta Caloi Elite Carbon FS SLX">
+            <br>
+            <h2>Bicicleta Caloi Elite Carbon FS SLX</h2>
+            <br><br>
+            <p>De:<s>R$ 23.999,00</s><br>Por:<strong>R$20.799,00</strong></p>
+            <p><i class="fa-solid fa-credit-card"></i>12x de R$ 1.733,25 sem juros no cartão de crédito</p>
+            <p><i class="fa-brands fa-pix"></i>R$ 17.999,00 no PIX</p>
+        </section>
+        <section class="bikes">
+            <img src="src/img/bikes/procaliber.png" alt="Bicicleta MTB Trek Procaliber 9.5">
+            <br>
+            <h2>Bicicleta MTB Trek Procaliber 9.5</h2>
+            <br><br>
+            <p>De:<s>R$14.512,99</s><br>Por:<strong>R$10.884,74</strong></p>
+            <p><i class="fa-solid fa-credit-card"></i>12x de R$907,61 sem juros no cartão de crédito</p>
+            <p><i class="fa-brands fa-pix"></i>R$9.884,74 no PIX</p>
+        </section>
+        <section class="bikes">
+            <img src="src/img/bikes/canyon.png" alt="Canyon Sender CFR Mullet">
+            <br>
+            <h2>Canyon Sender CFR Mullet</h2>
+            <br><br>
+            <p>De:<s>R$57.375,00</s><br>Por:<strong>R$34.425,00</strong></p>
+            <p><i class="fa-solid fa-credit-card"></i>12x de R$413,10 sem juros no cartão de crédito</p>
+            <p><i class="fa-brands fa-pix"></i>R$ 33.225,00 no PIX</p>
+        </section>
+        <section class="bikes">
+            <img src="src/img/bikes/xcaliber8.png" alt="TREK - X-Caliber 8">
+            <br>
+            <h2>TREK - X-Caliber 8 12 Velocidades</h2>
+            <br><br>
+            <p>De:<s>R$10.499,00</s><br>Por:<strong>R$9.449,00</strong></p>
+            <p><i class="fa-solid fa-credit-card"></i>12x de R$791,58 sem juros no cartão de crédito</p>
+            <p><i class="fa-brands fa-pix"></i>R$8.449,00 no PIX</p>
+        </section>
+        <section class="bikes">
+            <img src="src/img/bikes/caloi.png" alt="Bicicleta Caloi Elite Carbon FS SLX">
+            <br>
+            <h2>Bicicleta Caloi Elite Carbon FS SLX</h2>
+            <br><br>
+            <p>De:<s>R$ 23.999,00</s><br>Por:<strong>R$20.799,00</strong></p>
+            <p><i class="fa-solid fa-credit-card"></i>12x de R$ 1.733,25 sem juros no cartão de crédito</p>
+            <p><i class="fa-brands fa-pix"></i>R$ 17.999,00 no PIX</p>
+        </section>
+        <section class="bikes">
+            <img src="src/img/bikes/procaliber.png" alt="Bicicleta MTB Trek Procaliber 9.5">
+            <br>
+            <h2>Bicicleta MTB Trek Procaliber 9.5</h2>
+            <br><br>
+            <p>De:<s>R$14.512,99</s><br>Por:<strong>R$10.884,74</strong></p>
+            <p><i class="fa-solid fa-credit-card"></i>12x de R$907,61 sem juros no cartão de crédito</p>
+            <p><i class="fa-brands fa-pix"></i>R$9.884,74 no PIX</p>
+        </section>
+        <section class="bikes">
+            <img src="src/img/bikes/canyon.png" alt="Canyon Sender CFR Mullet">
+            <br>
+            <h2>Canyon Sender CFR Mullet</h2>
+            <br><br>
+            <p>De:<s>R$57.375,00</s><br>Por:<strong>R$34.425,00</strong></p>
+            <p><i class="fa-solid fa-credit-card"></i>12x de R$413,10 sem juros no cartão de crédito</p>
+            <p><i class="fa-brands fa-pix"></i>R$ 33.225,00 no PIX</p>
+        </section>
+        <section class="bikes">
+            <img src="src/img/bikes/xcaliber8.png" alt="TREK - X-Caliber 8">
+            <br>
+            <h2>TREK - X-Caliber 8 12 Velocidades</h2>
+            <br><br>
+            <p>De:<s>R$10.499,00</s><br>Por:<strong>R$9.449,00</strong></p>
+            <p><i class="fa-solid fa-credit-card"></i>12x de R$791,58 sem juros no cartão de crédito</p>
+            <p><i class="fa-brands fa-pix"></i>R$8.449,00 no PIX</p>
+        </section>
+    </main>
 
-            <div class="produtos">
-                <img src="src/img/bikes/procaliber.png" alt="trek procaliber">
-                <h1>Bicicleta MTB Trek Procaliber 9.5</h1>
-                <p>De: <s>R$14.512,90</s></p>
-                <p>Por: <strong>R$10.884,74</strong></p>
-                <img src="src/icons/ICON CARD.svg" alt="" class="iconpagamentos"><p>12x de <strong>R$907,61 </strong> sem juros no cartão de crédito</p>
-                <img src="src/icons/ICON PIX.svg" alt="" class="iconpagamentos"><p>R$9.884,74 no PIX</p>
-            </div>
+    <footer>
 
-            <div class="produtos">
-                <img src="src/img/bikes/canyon.png" alt="Canyon Sender CFR Mullet">
-                <h1> Canyon Sender CFR Mullet</h1>
-                <p>De: <s>R$57.375,00</s></p>
-                <p>Por: <strong>R$34.425,00</strong></p>
-                <img src="src/icons/ICON CARD.svg" alt="" class="iconpagamentos"><p>12x de <strong>R$413,10 </strong> sem juros no cartão de crédito</p>
-                <img src="src/icons/ICON PIX.svg" alt="" class="iconpagamentos"><p>R$33.225,00 no PIX</p>
-            </div>
+    </footer>
 
-            <div class="produtos">
-                <img src="src/img/bikes/xcaliber8.png" alt="Xcaliber 8">
-                <h1>TREK - X-Caliber 8</h1>
-                <p>De: <s>R$10.499,00</s></p>
-                <p>Por: <strong>R$9.449,00</strong></p>
-                <img src="src/icons/ICON CARD.svg" alt="" class="iconpagamentos"><p>12x de <strong>R$791,58 </strong> sem juros no cartão de crédito</p>
-                <img src="src/icons/ICON PIX.svg" alt="" class="iconpagamentos"><p>R$8.449,00  no PIX</p>
-            </div>
 
-            <div class="produtos">
-                <img src="src/img/bikes/caloi.png" alt="Bike caloi">
-                <h1>Bicicleta Caloi Elite Carbon FS SLX</h1>
-                <p>De: <s>R$ 23.999,00</s></p>
-                <p>Por:<strong>R$20.799,00</strong></p>
-                <img src="src/icons/ICON CARD.svg" alt="" class="iconpagamentos"><p>12x de <strong>R$ 1.733,25</strong> sem juros no cartão de crédito</p>
-                <img src="src/icons/ICON PIX.svg" alt="" class="iconpagamentos"><p><strong>R$ 17.999,00</strong> no PIX</p>
-
-            </div>
-
-            <div class="produtos">
-                <img src="src/img/bikes/procaliber.png" alt="trek procaliber">
-                <h1>Bicicleta MTB Trek Procaliber 9.5</h1>
-                <p>De: <s>R$14.512,90</s></p>
-                <p>Por: <strong>R$10.884,74</strong></p>
-                <img src="src/icons/ICON CARD.svg" alt="" class="iconpagamentos"><p>12x de <strong>R$907,61 </strong> sem juros no cartão de crédito</p>
-                <img src="src/icons/ICON PIX.svg" alt="" class="iconpagamentos"><p>R$9.884,74 no PIX</p>
-            </div>
-
-            <div class="produtos">
-                <img src="src/img/bikes/canyon.png" alt="Canyon Sender CFR Mullet">
-                <h1> Canyon Sender CFR Mullet</h1>
-                <p>De: <s>R$57.375,00</s></p>
-                <p>Por: <strong>R$34.425,00</strong></p>
-                <img src="src/icons/ICON CARD.svg" alt="" class="iconpagamentos"><p>12x de <strong>R$413,10 </strong> sem juros no cartão de crédito</p>
-                <img src="src/icons/ICON PIX.svg" alt="" class="iconpagamentos"><p>R$33.225,00 no PIX</p>
-            </div>
-
-            <div class="produtos">
-                <img src="src/img/bikes/xcaliber8.png" alt="Xcaliber 8">
-                <h1>TREK - X-Caliber 8</h1>
-                <p>De: <s>R$10.499,00</s></p>
-                <p>Por: <strong>R$9.449,00</strong></p>
-                <img src="src/icons/ICON CARD.svg" alt="" class="iconpagamentos"><p>12x de <strong>R$791,58 </strong> sem juros no cartão de crédito</p>
-                <img src="src/icons/ICON PIX.svg" alt="" class="iconpagamentos"><p>R$8.449,00  no PIX</p>
-            </div>
-
-            <div class="produtos">
-                <img src="src/img/bikes/caloi.png" alt="Bike caloi">
-                <h1>Bicicleta Caloi Elite Carbon FS SLX</h1>
-                <p>De: <s>R$ 23.999,00</s></p>
-                <p>Por:<strong>R$20.799,00</strong></p>
-                <img src="src/icons/ICON CARD.svg" alt="" class="iconpagamentos"><p>12x de <strong>R$ 1.733,25</strong> sem juros no cartão de crédito</p>
-                <img src="src/icons/ICON PIX.svg" alt="" class="iconpagamentos"><p><strong>R$ 17.999,00</strong> no PIX</p>
-
-            </div>
-
-            <div class="produtos">
-                <img src="src/img/bikes/procaliber.png" alt="trek procaliber">
-                <h1>Bicicleta MTB Trek Procaliber 9.5</h1>
-                <p>De: <s>R$14.512,90</s></p>
-                <p>Por: <strong>R$10.884,74</strong></p>
-                <img src="src/icons/ICON CARD.svg" alt="" class="iconpagamentos"><p>12x de <strong>R$907,61 </strong> sem juros no cartão de crédito</p>
-                <img src="src/icons/ICON PIX.svg" alt="" class="iconpagamentos"><p>R$9.884,74 no PIX</p>
-            </div>
-
-            <div class="produtos">
-                <img src="src/img/bikes/canyon.png" alt="Canyon Sender CFR Mullet">
-                <h1> Canyon Sender CFR Mullet</h1>
-                <p>De: <s>R$57.375,00</s></p>
-                <p>Por: <strong>R$34.425,00</strong></p>
-                <img src="src/icons/ICON CARD.svg" alt="" class="iconpagamentos"><p>12x de <strong>R$413,10 </strong> sem juros no cartão de crédito</p>
-                <img src="src/icons/ICON PIX.svg" alt="" class="iconpagamentos"><p>R$33.225,00 no PIX</p>
-            </div>
-
-            <div class="produtos">
-                <img src="src/img/bikes/xcaliber8.png" alt="Xcaliber 8">
-                <h1>TREK - X-Caliber 8</h1>
-                <p>De: <s>R$10.499,00</s></p>
-                <p>Por: <strong>R$9.449,00</strong></p>
-                <img src="src/icons/ICON CARD.svg" alt="" class="iconpagamentos"><p>12x de <strong>R$791,58 </strong> sem juros no cartão de crédito</p>
-                <img src="src/icons/ICON PIX.svg" alt="" class="iconpagamentos"><p>R$8.449,00  no PIX</p>
-            </div>
-
-            <div class="produtos">
-                <img src="src/img/bikes/caloi.png" alt="Bike caloi">
-                <h1>Bicicleta Caloi Elite Carbon FS SLX</h1>
-                <p>De: <s>R$ 23.999,00</s></p>
-                <p>Por:<strong>R$20.799,00</strong></p>
-                <img src="src/icons/ICON CARD.svg" alt="" class="iconpagamentos"><p>12x de <strong>R$ 1.733,25</strong> sem juros no cartão de crédito</p>
-                <img src="src/icons/ICON PIX.svg" alt="" class="iconpagamentos"><p><strong>R$ 17.999,00</strong> no PIX</p>
-
-            </div>
-
-            <div class="produtos">
-                <img src="src/img/bikes/procaliber.png" alt="trek procaliber">
-                <h1>Bicicleta MTB Trek Procaliber 9.5</h1>
-                <p>De: <s>R$14.512,90</s></p>
-                <p>Por: <strong>R$10.884,74</strong></p>
-                <img src="src/icons/ICON CARD.svg" alt="" class="iconpagamentos"><p>12x de <strong>R$907,61 </strong> sem juros no cartão de crédito</p>
-                <img src="src/icons/ICON PIX.svg" alt="" class="iconpagamentos"><p>R$9.884,74 no PIX</p>
-            </div>
-
-            <div class="produtos">
-                <img src="src/img/bikes/canyon.png" alt="Canyon Sender CFR Mullet">
-                <h1> Canyon Sender CFR Mullet</h1>
-                <p>De: <s>R$57.375,00</s></p>
-                <p>Por: <strong>R$34.425,00</strong></p>
-                <img src="src/icons/ICON CARD.svg" alt="" class="iconpagamentos"><p>12x de <strong>R$413,10 </strong> sem juros no cartão de crédito</p>
-                <img src="src/icons/ICON PIX.svg" alt="" class="iconpagamentos"><p>R$33.225,00 no PIX</p>
-            </div>
-
-            <div class="produtos">
-                <img src="src/img/bikes/xcaliber8.png" alt="Xcaliber 8">
-                <h1>TREK - X-Caliber 8</h1>
-                <p>De: <s>R$10.499,00</s></p>
-                <p>Por: <strong>R$9.449,00</strong></p><br>
-                <img src="src/icons/ICON CARD.svg" alt="" class="iconpagamentos"><p>12x de <strong>R$791,58 </strong> sem juros no cartão de crédito</p>
-                <img src="src/icons/ICON PIX.svg" alt="" class="iconpagamentos"><p>R$8.449,00  no PIX</p>
-            </div>
-
-        </main>
-    </div>
 </body>
 </html>
