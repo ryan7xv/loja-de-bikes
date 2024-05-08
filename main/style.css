@@ -115,7 +115,7 @@ main{
     border: 1px solid #B2ADAD;
     background: #FFF;
     width: 355px;
-    height: 614px;
+    height: 684px;
     flex-shrink: 0;
     font-family: Arial;
 }
@@ -144,4 +144,17 @@ main{
     font-weight: 800;
     line-height: normal;
     padding-left: 10px;
+}
+.bikes i{
+    font-size: 20pt;
+    margin-right: 2px;
+}
+#comprar{
+    width: 200px;
+    height: 50px;
+    background-color: #52FF00;
+    border: none;
+    border-radius: 5px;
+    margin-left: 60px;
+    cursor: pointer;
 }
